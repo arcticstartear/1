@@ -4,7 +4,7 @@
 ### 【提示】在alloc_proc函数的实现中，需要初始化的proc_struct结构中的成员变量至少包括：state/pid/runs/kstack/need_resched/parent/mm/context/tf/cr3/flags/name。
 ### 请在实验报告中简要说明你的设计实现过程。
 答：根据题目中提示和相关英文注解，完成对proc_struct结构体成员变量的初始化如下
-![](https://pic.imgdb.cn/item/655b4bdfc458853aeffc4a60.png)
+![](pictures/1.png)
 ### 请回答如下问题：
 ### 请说明proc_struct中struct context context和struct trapframe *tf成员变量含义和在本实验中的作用是啥？（提示通过看代码和编程调试可以判断出来）
 
